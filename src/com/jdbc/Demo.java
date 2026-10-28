@@ -11,7 +11,10 @@ public class Demo {
 		final String URL="jdbc:mysql://localhost:3306/mydata";
 		String user="root";
 		String password="Dedivya@5b8";
-        String query="insert into student values(1,'divya',40,18)";
+//        String query="insert into student values(1,'divya',40,18)";
+//        String query="insert into student values(2,'sumanjalli',30,38)";
+        String query="insert into student values(3,'diya',80,58)";
+
         try {
 			Connection connection=DriverManager.getConnection(URL, user, password);
 			Statement st=connection.createStatement();
